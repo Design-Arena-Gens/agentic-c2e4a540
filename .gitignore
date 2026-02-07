@@ -915,3 +915,9 @@ config/database.yml
 *.zip
 
 # ===== END =====
+
+# --- Project overrides ---
+!package.json
+!package-lock.json
+!tsconfig.json
+!.eslintrc.json
